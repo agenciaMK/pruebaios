@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "pruebaios.mkmedia.es"
+        versionCode = ""
+        version     = "1.0.0" >
+
+	<name>pruebaios</name>
+
+	<description>Prueba para iOS.</description>
+
+	<author href="" email="jdiez@mkmedia.es">javier diez</author>
+
+	<gap:platform name="ios" />
+
+	<preference name="phonegap-version" value="2.9.1" />
+
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+
+	<!-- Add Icon, Splash screen and any PhoneGap plugin declaration here -->
+
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.network-information" />
+	<gap:plugin name="com.phonegap.plugin.statusbar" />
+
+</widget>
