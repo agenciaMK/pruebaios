@@ -5,7 +5,7 @@ define( function ( require ) {
 	return {
 		app_slug : 'prueba-para-ios',
 		wp_ws_url : 'http://dev.mkmedia.es/wp-appkit-api/prueba-para-ios',
-		theme : 'wpak-tabs-ios',
+		theme : 'nihao-ios',
 		version : '1.0.0',
 		app_title : 'Prueba iOS',
 		debug_mode : 'on',
